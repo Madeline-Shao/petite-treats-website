@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+  Name: Madeline Shao
+  CS 101 Spring 2021
+  Date: June 8, 2021
+
+  This page allows the user to view their cart and delete items from it.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="cart-styles.css">
+  <script defer="" src="cart.js"></script>
+  <title>Flavors | Petite Treats</title>
+</head>
+<body>
+  <header>
+    <h1>PETITE TREATS</h1>
+    <h2>Home Bakery</h2>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="flavors.html">Flavors</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+      </ul>
+      <button id="cart-btn" type="button"></button>
+    </nav>
+  </header>
+  <main>
+    <h1>Cart</h1>
+    <section id="cart-view" class="container">
+      <h2><span id="cart-count">0</span> item(s) in your cart</h2>
+      <ul id="cart"><!-- To be filled in with JS --></ul>
+      <p>Total Price: $<span id="total-price">0.00</span></p>
+      <div>
+        <button id="clear-cart-btn">Clear Cart</button>
+        <button id="product-btn">Back To Products</button>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <address>
+      Contact us at <a href="mailto:petitetreats.sj@gmail.com">petitetreats.sj@gmail.com</a>!
+    </address>
+    <p>
+      Images by Maggie Li and Madeline Shao, as well as by
+      <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a>
+      from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> and
+      <a href="https://unsplash.com/@americanheritagechocolate">American Heritage Chocolate</a>
+      from <a href="https://www.unsplash.com/">www.unsplash.com</a>
+    </p>
+  </footer>
+</body>
+</html>

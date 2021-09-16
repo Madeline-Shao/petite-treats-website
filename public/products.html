@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+  Name: Madeline Shao
+  CS 101 Spring 2021
+  Date: June 8, 2021
+
+  This page lists and describes the products that Petite Treats sells. It has a
+  product list view and a single product view. The user can customize a product
+  and add it to their cart.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="products-styles.css">
+  <script defer="" src="products.js"></script>
+  <title>Flavors | Petite Treats</title>
+</head>
+<body>
+  <header>
+    <h1>PETITE TREATS</h1>
+    <h2>Home Bakery</h2>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="flavors.html">Flavors</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+      </ul>
+      <button id="cart-btn" type="button"></button>
+    </nav>
+  </header>
+  <main>
+    <h1>Products</h1>
+    <section id="filter-options">
+      <label>Search: <input type="search" id="search"></label>
+      <div>
+        <label>Sort by:
+          <select id="sort-by">
+            <option value="name">Name</option>
+            <option value="price">Price</option>
+          </select>
+        </label>
+        <label>
+          <input type="radio" name="sort-direction" value="asc" checked>
+          Ascending
+        </label>
+        <label>
+          <input type="radio" name="sort-direction" value="desc">
+          Descending
+        </label>
+      </div>
+      <button id="go-btn">Go</button>
+    </section>
+    <p id="results"></p>
+    <section id="product-list-view" class="container">
+      <!-- To be filled in with JS -->
+    </section>
+    <section id="single-item-view" class ="hidden">
+      <!-- To be filled in with JS -->
+    </section>
+  </main>
+  <footer>
+    <address>
+      Contact us at <a href="mailto:petitetreats.sj@gmail.com">petitetreats.sj@gmail.com</a>!
+    </address>
+    <p>
+      Images by Maggie Li and Madeline Shao, as well as by
+      <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a>
+      from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> and
+      <a href="https://unsplash.com/@americanheritagechocolate">American Heritage Chocolate</a>
+      from <a href="https://www.unsplash.com/">www.unsplash.com</a>
+    </p>
+  </footer>
+</body>
+</html>

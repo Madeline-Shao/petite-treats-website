@@ -1,0 +1,17 @@
+{
+  "name": "cp-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Madeline Shao",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "*",
+    "multer": "^1.4.2",
+    "promise-mysql": "^5.0.3"
+  }
+}

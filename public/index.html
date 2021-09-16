@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+  Name: Madeline Shao
+  CS 101 Spring 2021
+  Date: June 8, 2021
+
+  This is the index.html page for the Petite Treats home bakery website.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="index-styles.css">
+  <script defer="" src="index.js"></script>
+  <title>Bakery | Petite Treats</title>
+</head>
+<body>
+  <header>
+    <h1>PETITE TREATS</h1>
+    <h2>Home Bakery</h2>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="flavors.html">Flavors</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+      </ul>
+      <button id="cart-btn" type="button"></button>
+    </nav>
+  </header>
+  <main>
+    <aside>
+      <h2>About Us</h2>
+      <p>
+        Petite Treats is a home-based bakery in Cupertino/West San Jose. We make
+        specialty macarons and other baked goods, all of
+        which are personally made from scratch with love and care every day. In
+        this time of uncertainty, we want to add a little love and joy to our
+        customers' lives with our delicious handmade treats. :)
+      </p>
+    </aside>
+    <section>
+      <h2>Featured</h2>
+      <p id="results"></p>
+      <section id="featured" class="container">
+        <!-- To be filled in with JS -->
+      </section>
+    </section>
+    <section id="contact-us" class="container">
+      <h2>Contact Us</h2>
+      <form id="contact-form">
+        <label for="name-input">Name: </label>
+        <input id="name-input" name="name" type="text" pattern="[A-Z][a-z]+ [A-Z][a-z]+"
+         placeholder="Ex: Tony Stark" title="Please provide a name in <First Last> format."
+         value= "" required>
+        <label for="email-input">Email: </label>
+        <input id="email-input" name="email" type="email" placeholder="Ex: youknowwhoiam@gmail.com"
+         value= "" required>
+        <label for="message-input">Message: </label>
+        <textarea id="message-input" name="message" rows="5" placeholder="Enter your message"
+         minlength=10 required></textarea>
+        <button id="submit-btn" type="submit">Submit</button>
+      </form>
+      <p id="confirmation"></p>
+    </section>
+  </main>
+  <footer>
+    <address>
+      Contact us at <a href="mailto:petitetreats.sj@gmail.com">petitetreats.sj@gmail.com</a>!
+    </address>
+    <p>
+      Images by Maggie Li and Madeline Shao, as well as by
+      <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a>
+      from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> and
+      <a href="https://unsplash.com/@americanheritagechocolate">American Heritage Chocolate</a>
+      from <a href="https://www.unsplash.com/">www.unsplash.com</a>
+    </p>
+  </footer>
+</body>
+</html>

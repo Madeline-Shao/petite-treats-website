@@ -1,0 +1,19 @@
+/*
+ * Author: Madeline Shao
+ * CS 101 Spring 2021
+ * June 8, 2021
+ *
+ * Specific style sheet for index.html of the Petite Treats website.
+ */
+
+#email-input, #name-input {
+  width: 200px;
+}
+
+#contact-us {
+  flex-direction: column;
+}
+
+#contact-form button {
+  align-self: flex-end;
+}

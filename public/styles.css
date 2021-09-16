@@ -1,0 +1,152 @@
+/*
+ * Author: Madeline Shao
+ * CS 101 Spring 2021
+ * June 8, 2021
+ *
+ * Shared style sheet for index.html, flavors.html, products.html, faq.html, and cart.html
+ * of the Petite Treats website.
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Lato&family=Quicksand:wght@400;600&display=swap');
+
+body {
+  background-color: #edfcff;
+}
+
+body, button {
+  font-family: Quicksand, sans-serif;
+}
+
+header {
+  background-color: rgb(182, 212, 252);
+}
+
+header h1, header h2 {
+  margin-left: 10px;
+}
+
+header h2 {
+  font-weight: normal;
+  font-family: Lato, sans-serif;
+  font-style: italic;
+}
+
+nav, footer {
+  background-color: black;
+}
+
+nav {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  justify-content: space-between;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+a, footer, button {
+  color: white;
+}
+
+a:hover {
+  color: #66ccfc
+}
+
+nav a, aside, section article, footer {
+  padding: 10px;
+}
+
+main {
+  margin-top: 20px;
+}
+
+main, footer {
+  text-align: center;
+}
+
+img, p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  max-width: 500px;
+}
+
+aside, .container {
+  background-color: rgb(156, 197, 250);
+}
+
+section {
+  padding: 40px;
+}
+
+button {
+  font-weight: bold;
+  background-color: darkblue;
+  width: 100px;
+  padding: 5px;
+}
+
+button:hover {
+  background-color: rgb(0, 81, 255);
+  cursor: pointer;
+}
+
+section article {
+  width: 40%;
+  min-width: 250px;
+  background-color: white;
+}
+
+nav, section article {
+  align-items: center;
+}
+
+button, section article {
+  margin: 10px;
+}
+
+section article, form {
+  flex-direction: column;
+}
+
+section article, form, nav, .container {
+  display: flex;
+}
+
+section article, form, .container {
+  justify-content: space-evenly;
+}
+
+label {
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.container {
+  flex-wrap: wrap;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+#cart-btn {
+  background-image: url(imgs/shopping-cart.png);   /* Image from Flat Icons */
+  background-size: 50px;
+  background-color: transparent;
+  height: 50px;
+  width: 50px;
+  border: none;
+}
+
+#cart-btn:hover {
+  border: 2px outset gray;
+}
+
+.hidden {
+  display: none !important;
+}

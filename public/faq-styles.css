@@ -1,0 +1,16 @@
+/*
+ * Author: Madeline Shao
+ * CS 101 Spring 2021
+ * June 8, 2021
+ *
+ * Specific style sheet for faq.html of the Petite Treats website.
+ */
+
+.faq-card {
+  width: 90%;
+}
+
+ #faq {
+  align-items: center;
+  flex-direction: column;
+}

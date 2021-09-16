@@ -1,0 +1,38 @@
+/*
+ * Author: Madeline Shao
+ * CS 101 Spring 2021
+ * June 8, 2021
+ *
+ * Specific style sheet for cart.html of the Petite Treats website.
+ */
+
+.remove-btn {
+  height: 20px;
+  width: 20px;
+  background-color: rgb(205, 67, 67);
+  padding: 0px;
+}
+
+.remove-btn:hover {
+  background-color: red;
+}
+
+#cart-view {
+  flex-direction: column;
+  align-items: center;
+}
+
+#cart-view p {
+  font-style: italic;
+  font-size: 14pt;
+}
+
+#cart-view ul {
+  text-align: left;
+  width: 300px;
+  white-space: pre-line;
+}
+
+#cart-view > ul {
+  margin: auto;
+}

@@ -1,0 +1,43 @@
+/*
+ * Author: Madeline Shao
+ * CS 101 Spring 2021
+ * June 8, 2021
+ *
+ * Specific style sheet for products.html of the Petite Treats website.
+ */
+
+#customizations-form {
+  align-items: center;
+}
+
+#customizations-form, #customizations {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+#single-view-card {
+  width: 80%;
+  border: 2px solid darkblue;
+  margin: auto;
+}
+
+#single-view-back-btn {
+  align-self: flex-start;
+  width: 150px;
+}
+
+#go-btn {
+  margin-left: 0px;
+}
+
+#filter-options  {
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#filter-options div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
